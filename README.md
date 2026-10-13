@@ -14,12 +14,12 @@ A team project combining hands-on quadcopter assembly, flight-system configurati
 
 The goal was to become familiar with the ArduPilot platform and prepare a drone for testing. Our work covered manual assembly, component integration, software setup, wireless communication and mission planning in Mission Planner.
 
-The planned autonomous mission and SITL demonstration were separate from the physical flight test. The real drone was flown manually indoors; outdoor flight tests and execution of the planned autonomous mission on the physical drone were not carried out.
+We planned the autonomous mission in Mission Planner and tested the physical drone indoors under manual RC control. We did not carry out outdoor tests or execute the planned autonomous mission on the physical drone.
 
 ## Team contribution
 
 > **Shared development**  
-> Martyna Rydczak, Dawid Zieliński and Szymon Rybka worked together on assembly, configuration, integration and testing. Responsibilities overlapped throughout the project, so the work is presented as a joint team effort.
+> We worked together on assembly, configuration, integration and testing, sharing responsibilities throughout the project.
 
 ## Assembly and integration
 
@@ -34,7 +34,7 @@ We manually assembled the drone and connected the flight controller, GPS, wirele
 
 ### ArduPilot and Mission Planner
 
-The project included Linux setup, ArduPilot configuration and mission planning in Mission Planner. The presentation documents a SITL demonstration with takeoff, waypoints and landing, along with the map view and telemetry display.
+We set up Linux, configured ArduPilot and planned a mission in Mission Planner. The presentation includes a SITL demonstration showing takeoff, waypoints and landing, with a map view and telemetry display.
 
 ![Mission planning in Mission Planner](media/images/mission-planning.jpg)
 
@@ -43,7 +43,7 @@ The project included Linux setup, ArduPilot configuration and mission planning i
 
 ![Mission Planner and SITL demonstration shown in the presentation](media/images/sitl-demonstration.jpg)
 
-The simulated mission demonstrates the planning workflow. It is not evidence that the physical drone completed the same autonomous mission.
+The screenshot illustrates mission planning and simulated flight in Mission Planner.
 
 </details>
 
@@ -53,26 +53,25 @@ We configured the physical radio transmitter, checked its connection to the dron
 
 <img src="media/images/radio-transmitter.jpg" alt="RadioMaster TX12 radio transmitter used for manual drone control" width="300">
 
-The transmitter is a **RadioMaster TX12** with an **EdgeTX / ELRS** label. Its exact hardware revision has not been verified. The transmitter is separate from the onboard flight controller.
+We used a **RadioMaster TX12** transmitter for manual RC control.
 
-The project presentation also records configuration of WiFi modules and a router for remote communication.
+We also configured WiFi modules and a router for remote communication.
 
 ## Testing and results
 
-The integrated drone successfully took off during a short indoor test under manual RC control. The team checked the radio connection and response to commands. Outdoor testing was not conducted.
+Our assembled drone successfully took off during a short indoor test under manual RC control. We checked the radio connection and the drone's response to commands.
 
 | Recording | Link |
 |---|---|
 | Short indoor test recording | [Open MP4](media/videos/indoor-test-short.mp4?raw=true) |
 | Longer indoor test recording | [Open MP4](media/videos/indoor-test-long.mp4?raw=true) |
 
-The recordings document the physical prototype tests. They do not represent execution of the autonomous waypoint mission.
+The recordings show our indoor tests of the physical prototype.
 
-The project provided practical experience in integrating electronics and propulsion components, configuring a flight system and troubleshooting communication between hardware and software.
+Through this project, we gained experience in integrating electronics and propulsion components, configuring a flight system and troubleshooting communication between hardware and software.
 
 ## Project materials
 
 - [Project presentation](docs/project-presentation.pdf)
 - [Image and recording index](media/README.md)
 
-This repository documents the project through photographs, recordings and the presentation. Source code, exported mission files, parameter backups and flight logs are not included in the supplied materials.
